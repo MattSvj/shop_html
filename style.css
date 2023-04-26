@@ -756,11 +756,22 @@ color: #222224;
 
 .input {
   margin-top: 27px;
+  width: 323px;
+  outline: none;
 }
 
 .subscribe__button {
-
+width: 100px;
+color: white;
 background: #F16D7F;
+border-radius: 0 50px 50px 0;
+height: 50px;
+position: absolute;
+outline: none;
+display: inline-block;
+cursor: pointer;
+margin-left: -100px;
+border: none;
 }
 
 .social__links {
@@ -788,8 +799,6 @@ background: #F16D7F;
   
 }
 
-
-
 input[type=email] {
   padding-top: 7px;
   padding-bottom: 6px;
@@ -797,6 +806,8 @@ input[type=email] {
   padding-right: 130px;
   border:#EBEBEB;
   background: #E1E1E1;
+  border-radius: 50px;
+  height: 38px;
 }
 
 
@@ -861,3 +872,6 @@ margin-bottom: 49px;
 }
 
 
+.search {
+  width: 330px;
+}
