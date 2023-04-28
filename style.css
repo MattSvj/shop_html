@@ -695,11 +695,13 @@ img {
 }
 
 .basement {
-  background: no-repeat center/100% url(img/basement.png);
+  background-image: url(img/basement.png);
+  background-repeat: round;
   padding-top: 87px;
   padding-bottom: 156px;
   display: flex;
   justify-content: space-between;
+
 }
 
 .basement__right {
